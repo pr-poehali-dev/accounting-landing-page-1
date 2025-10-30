@@ -120,7 +120,7 @@ const Index = () => {
           backgroundPosition: 'center bottom',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
+        <div className="absolute inset-0 from-black/60 via-black/40 to-transparent bg-transparent rounded-sm my-[63px]"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="md:text-7xl font-bold mb-6 text-white drop-shadow-2xl text-5xl">Порядок в учете - Ваша свобода!</h1>
