@@ -115,7 +115,7 @@ const Index = () => {
       <section 
         className="relative pt-32 pb-20 px-4 min-h-[600px] flex items-center"
         style={{
-          backgroundImage: 'url(https://cdn.poehali.dev/files/dd137cd1-bd54-4dc6-b406-97648389a232.jpg)',
+          backgroundImage: 'url(https://cdn.poehali.dev/files/f988686c-4080-441e-bc27-5dc9ab5f760f.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
