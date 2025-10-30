@@ -123,10 +123,8 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-2xl">Порядок в учете - Ваша свобода!</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-lg">
-              Полное сопровождение вашего бизнеса. Освободите время для развития — мы возьмем учет на себя.
-            </p>
+            <h1 className="md:text-7xl font-bold mb-6 text-white drop-shadow-2xl text-5xl">Порядок в учете - Ваша свобода!</h1>
+            <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-lg">Бухгалтерский и бизнес-аутсорсинг для малого бизнеса. Наведу порядок, оптимизирую налоги и выстрою процессы, чтобы вы могли спокойно зарабатывать.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-6 shadow-xl" asChild>
                 <a href="#contacts">Получить консультацию</a>
