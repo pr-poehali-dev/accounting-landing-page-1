@@ -112,20 +112,28 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50">
-        <div className="container mx-auto">
+      <section 
+        className="relative pt-32 pb-20 px-4 min-h-[600px] flex items-center"
+        style={{
+          backgroundImage: 'url(https://cdn.poehali.dev/files/dd137cd1-bd54-4dc6-b406-97648389a232.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
+        <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-2xl">
               Бухгалтерия под ключ
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+            <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-lg">
               Полное сопровождение вашего бизнеса. Освободите время для развития — мы возьмем учет на себя.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="text-lg px-8 py-6" asChild>
+              <Button size="lg" className="text-lg px-8 py-6 shadow-xl" asChild>
                 <a href="#contacts">Получить консультацию</a>
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6" asChild>
+              <Button size="lg" variant="outline" className="text-lg px-8 py-6 bg-white/90 hover:bg-white shadow-xl" asChild>
                 <a href="#prices">Узнать цены</a>
               </Button>
             </div>
