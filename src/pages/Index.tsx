@@ -123,9 +123,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-2xl">
-              Бухгалтерия под ключ
-            </h1>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-2xl">Порядок в учете - Ваша свобода!</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-lg">
               Полное сопровождение вашего бизнеса. Освободите время для развития — мы возьмем учет на себя.
             </p>
